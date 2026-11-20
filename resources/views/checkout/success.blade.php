@@ -53,10 +53,10 @@
                             </svg>
                             <div>
                                 <p class="font-bold text-yellow-800">Informasi Pembayaran</p>
-                                <p class="text-sm text-yellow-700 mt-1">Silakan transfer ke rekening berikut:</p>
+                                <p class="text-sm text-yellow-700 mt-1">Silakan transfer ke DANA berikut:</p>
                                 <div class="mt-3 text-base text-yellow-900 bg-white/50 p-3 rounded-lg border border-yellow-100">
-                                    <p class="font-extrabold">Bank BCA - 1234567890</p>
-                                    <p class="font-medium text-sm">a.n. Toko Tri Bhakti At Taqwa</p>
+                                    <p class="font-extrabold">DANA 082260202047</p>
+                                    <p class="font-medium text-sm">a.n. Ahmad Syaiful Huda</p>
                                 </div>
                             </div>
                         </div>

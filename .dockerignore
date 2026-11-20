@@ -1,0 +1,35 @@
+/.git
+/.gitignore
+/.github
+/.gitattributes
+/.dockerignore
+/Dockerfile
+/docker-compose*.yml
+
+# Environment & secrets
+/.env
+/.env.*
+!/.env.example
+!/.env.production.example
+
+# Dependensi (di-install ulang saat build)
+/node_modules
+/vendor
+
+# Hasil build (dibuat ulang di stage assets)
+/public/build
+/public/hot
+
+# Data lokal
+/*.sql
+/database/database.sqlite
+/ngrok.exe
+
+# Cache runtime (disimpan ulang saat container start)
+/bootstrap/cache/*.php
+/.phpunit.result.cache
+
+# Test & dokumentasi
+/tests
+/README.md
+/DEPLOY.md

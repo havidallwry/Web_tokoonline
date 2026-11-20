@@ -110,8 +110,8 @@
                             </div>
                             <div class="flex justify-between items-end mb-1">
                                 <div>
-                                    <p class="text-sm font-bold text-gray-800">BCA 1234567890</p>
-                                    <p class="text-xs text-gray-500">a.n. Toko Tri Bhakti</p>
+                                    <p class="text-sm font-bold text-gray-800">DANA 082260202047</p>
+                                    <p class="text-xs text-gray-500">a.n. Ahmad Syaiful Huda</p>
                                 </div>
                                 <p class="text-sm font-bold text-emerald-600">{{ $order->formatted_total }}</p>
                             </div>
