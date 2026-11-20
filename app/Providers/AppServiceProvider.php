@@ -3,24 +3,19 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\URL;
+use Illuminate\Support\Facades\URL; // <-- Tambahkan baris ini
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
     public function register(): void
     {
         //
     }
 
-    /**
-     * Bootstrap any application services.
-     */
     public function boot(): void
     {
-        if (str_contains(config('app.url'), 'ngrok-free')) {
+        // Paksa semua link aset & route menggunakan HTTPS di production
+        if (config('app.env') === 'production') {
             URL::forceScheme('https');
         }
     }
